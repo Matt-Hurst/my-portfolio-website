@@ -1,17 +1,34 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import App from './components/app'
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+ReactDOM.render(<App />, document.getElementById('root'));
+
+/* 
+STEPS:
+
+- header text and icons closer to bottom?
+
+- portfolio page
+   - data structure (seperate file) + map onto page:
+        - each object within array is a website/piece of work containing:
+            - title
+            - image (screen shot of app)
+            - <a> linking to deployed website
+            - list of technologies used
+
+- Interests page
+    - interest and text on one side, image on the other (reverses for next interest)
+
+- CV
+
+- Contact page
+    - email
+    - linkedin
+        
+
+
+
+
+*/

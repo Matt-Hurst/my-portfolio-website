@@ -1,0 +1,120 @@
+/* SITE MAIN COLOUR
+
+#4b6584
+
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Lato', sans-serif;;
+    color:#4b6584;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    line-height: 120%;
+}
+
+
+/*----------- REUSABLE COMPONENTS ------------ */
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+ 
+.title-row {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    margin: 40px;
+    font-size: 200%;
+    padding: 30px;
+    border-bottom: 1px solid #4b6584;
+    text-transform: uppercase;
+ 
+}
+/*----------- HOME ------------ */
+
+.home-row {
+    margin: 0 auto;
+    margin-right: 20px;
+}
+
+.home-text {
+    position: absolute;
+    width: 1140px;
+    top: 70%;
+    left: 20%;
+    color: #fff;
+    font-size: 150%;
+    word-spacing: 3px;
+    line-height: 150%;
+}
+
+/*----------- HEADER ------------ */
+
+header {
+    padding-bottom: 75px;
+    background-color: #4b6584;
+    color: #fff;
+}
+
+.row-header {
+    margin: 0 3% 0 10%;
+}
+
+.row-header a:link,
+.row-header a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+.name {
+    margin-top: 35px;
+    float: left;
+}
+
+.nav {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+    font-size: 150%;
+    color: #fff;
+}
+
+.nav li {
+    display: inline-block;
+    margin-left: 40px;
+    transition: font-weight 0.2s;
+}
+
+.nav li a:link,
+.nav li a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav li:hover {
+    font-weight: bold;
+}
+
+.logo {
+    height: 30px;
+    width: auto;
+    border: 0px solid #4b6584;
+    transition: border 0.2s;
+}
+
+.logo:hover {
+    border: 1px solid #4b6584;
+}
+
