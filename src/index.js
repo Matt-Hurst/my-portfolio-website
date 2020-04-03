@@ -8,8 +8,6 @@ ReactDOM.render(<App />, document.getElementById('root'));
 /* 
 STEPS:
 
-- header text and icons closer to bottom?
-
 - portfolio page
    - data structure (seperate file) + map onto page:
         - each object within array is a website/piece of work containing:
