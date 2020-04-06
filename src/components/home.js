@@ -3,13 +3,21 @@ import London from "../img/london.jpg";
 import "./home.css";
 import LinkedIn from "../img/li-white.png";
 import Github from "../img/GitHub-Mark-Light-64px.png"
+import Header from "./header"
 
 
 const Home = (props)=> {
     return (
-        <div class="home">
+        <div className="home">
+            <Header 
+                homeClick = {props.homeClick}
+                portfolioClick={props.portfolioClick}
+                cvClick={props.cvClick}
+                interestsClick={props.interestsClick}
+                contactClick={props.contactClick}       
+            />
             <div className="home-row">
-            <ul className="nav">
+            {/* <ul className="nav">
                     <li>
                         <a href="#"
                            onClick={()=> {
@@ -52,7 +60,7 @@ const Home = (props)=> {
                     <li>
                         {<img src={Github} className="logo"></img>}
                     </li>
-                </ul>
+                </ul> */}
                 <div className="home-text">
                     <p>Welcome. This website showcases Matthew Hurst's </p>
                     <p>portfolio, cv, and interests.</p>

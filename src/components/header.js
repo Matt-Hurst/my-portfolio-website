@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import LinkedIn from "../img/li-white.png"
 import Github from "../img/GitHub-Mark-Light-64px.png"
+import "../queries.css"
 
 const Header = (props)=> {
     
-    const [click, setClick] = useState(null);
+    // const [click, setClick] = useState(null);
     
 
     // const homeClicked = ()=> (props.homeChange)
@@ -14,49 +15,31 @@ const Header = (props)=> {
     return(
         <header>
             <div className="row-header">
-                <a href="#" 
-                onClick={()=> {
-                   props.homeClick();
-                }}
-                >
-                <h1 className="name">Matthew Hurst</h1>
-                </a>
+                <h1 className="name" 
+                    onClick={()=> {
+                        props.homeClick();
+                        }}
+                        >
+                Matthew Hurst</h1>
                 <ul className="nav">
-                    <li>
-                        <a href="#"
-                           onClick={()=> {
+                    <li
+                        onClick={()=> {
                             props.portfolioClick();
                         }}
                         >
                             Portfolio
-                        </a>
                     </li>
-                    <li>
-                         <a href="#"
-                            onClick={()=> {
-                                props.cvClick();
-                            }}
-                         >
-                            CV
-                        </a>
-                    </li>
-                    <li>
-                         <a href="#"
-                           onClick={()=> {
+                    <li onClick={()=> {
                             props.interestsClick();
-                        }}                         
-                         >
+                        }}   
+                        >
                             Interests
-                        </a>
                     </li>
-                    <li>
-                         <a href="#"
-                           onClick={()=> {
+                    <li onClick={()=> {
                             props.contactClick();
-                        }}                         
-                         >
+                        }}     
+                        >
                             Contact
-                        </a>
                     </li>
                     <li>
                         <a href="https://www.linkedin.com/in/matthew-a-hurst/" target="blank">

@@ -8,25 +8,15 @@ ReactDOM.render(<App />, document.getElementById('root'));
 /* 
 STEPS:
 
-- portfolio page
-   - data structure (seperate file) + map onto page:
-        - each object within array is a website/piece of work containing:
-            - title
-            - image (screen shot of app)
-            - <a> linking to deployed website
-            - list of technologies used
+- Header - work out how to get the logos to align with the pages!
 
-- Interests page
-    - interest and text on one side, image on the other (reverses for next interest)
+- Contact page:
+    - Google forms
 
-- CV
+- Google React Link Pages
 
-- Contact page
-    - email
-    - linkedin
+- Media Queries
+
+- Certificate Page - add in when more than one certificate! 
         
-
-
-
-
 */

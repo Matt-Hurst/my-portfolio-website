@@ -1,0 +1,95 @@
+
+
+/*==============================*/
+/* MAX WIDTH 1345PX */
+/*==============================*/
+
+/* INTERESTS PAGE */
+@media only screen and (max-width: 1345px) {
+    .interest-text {
+        width:62%;
+    }
+}
+
+
+
+
+/*==============================*/
+/* MAX WIDTH 533PX */
+/*==============================*/
+
+
+/* Small phones for 0 to 480px */
+@media only screen and (max-width: 533px) {
+
+    .name {
+        margin-top: 1%;
+        float: left;
+        font-weight: 300;
+        font-size: 100%;
+    }
+    
+    .nav {
+        float: right;
+        list-style: none;
+        font-size: 80%;
+    }
+
+    .interest-text {
+        width:90%;
+    }
+
+    form {
+        width: 90%;
+        padding-top: 40px;
+    }
+
+    
+    .title {
+        font-size: 140%;
+    }
+
+    p {
+        font-size: 80%;
+    }
+
+    /* PORTFOLIO PAGE */
+    .conatiner {
+        max-width: 100%;
+    }
+    
+    .tile {
+        padding-left: 0;
+        padding-right: 0;
+        /* padding-top: 30px; */
+    }
+    
+    
+    .col {
+        display: inline-block;
+        float:left;
+        text-align: center;
+        margin: 40px 20px 40px 20px ;
+        width: 100%;
+    }
+    
+    .col h3 {
+        padding-top: 5px;
+    }
+    .col p {
+        padding-top: 20px;
+    }
+    .col p,
+    .col h3 {
+
+        padding-left: 30px;
+        text-align: left;
+        word-spacing: 3px;
+        letter-spacing: 1px;
+    }
+    
+    .span-1-of-2 {
+        width: 45%;
+    }
+    
+} 

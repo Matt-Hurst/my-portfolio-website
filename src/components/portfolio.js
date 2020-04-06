@@ -1,23 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import Header from "./header";
 import work from "../work";
-import Piece from "./piece";
+
 
 
 
 const Portfolio = (props)=> {
 
-    const createPiece = (piece)=> {
-        return (
-            <Piece 
-                key={piece.id}
-                name={piece.name}
-                img={piece.img}
-                tech={piece.tech}
-                desc={piece.desc}
-            />
-        )
-    }
 
     return (
         <div>
@@ -32,7 +21,26 @@ const Portfolio = (props)=> {
                 <h1 className="title">Portfolio</h1>
             </div>
             <div className="row">
-                <div>{work.map(createPiece)}</div>
+                <div>{work.map( (piece) => {
+                    return (
+                    <div className="container">    
+                        <div className="tile">
+                            <div className="col span-1-of-2">
+                                <a href={piece.website} target="blank">
+                                    <img src={piece.img} alt={piece.alt} />
+                                </a>
+                            </div>
+                            <div className="col span-1-of-2x">
+                                <h3>{piece.name}</h3>
+                                <p>Built with {piece.tech}</p>
+                                <p><em>{piece.desc}</em></p>
+                            </div>
+                         </div>
+                        <div className="clearfix"></div>
+                    </div>
+                    )
+                }
+                )}</div>
             </div>
         </div>
     )
