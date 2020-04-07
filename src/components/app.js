@@ -1,17 +1,17 @@
 import React, { useState } from "react";
-import Header from "./header";
 import Home from "./home";
 import Portfolio from "./portfolio";
 import CV from "./cv";
 import Interests from "./interests";
 import Contact from "./contact";
+import "../queries.css"
 
 const App = ()=> {
     
     const [home, setHome] = useState(false);
-    const [portfolio, setPortfolio] = useState(true);
+    const [portfolio, setPortfolio] = useState(false);
     const [cv, setCv] = useState(false);
-    const [interests, setInterests] = useState(false);
+    const [interests, setInterests] = useState(true);
     const [contact, setContact] = useState(false);
     
     

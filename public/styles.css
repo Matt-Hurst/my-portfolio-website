@@ -12,7 +12,7 @@
 }
 
 html {
-    font-family: 'Lato', sans-serif;;
+    font-family: 'Lato', sans-serif;
     color:#4b6584;
     background-color: #f4f4f4;
     font-size: 20px;
@@ -25,24 +25,31 @@ html {
 /*----------- REUSABLE COMPONENTS ------------ */
 
 .row {
+<<<<<<< HEAD
     max-width: 1700px;
+=======
+    max-width: 1170px;
+>>>>>>> portfolio-page-design
     margin: 0 auto;
 }
  
 .title-row {
-    max-width: 900px;
+    max-width: 80%;
     margin: 0 auto;
 }
 
 .title {
     text-align: center;
-    margin: 40px;
     font-size: 200%;
-    padding: 30px;
+    padding: 50px;
     border-bottom: 1px solid #4b6584;
     text-transform: uppercase;
- 
 }
+
+h3 {
+    font-size: 140%;
+}
+
 /*----------- HOME ------------ */
 
 .home-row {
@@ -50,10 +57,11 @@ html {
     margin-right: 20px;
 }
 
+
 .home-text {
     position: absolute;
-    width: 1140px;
-    top: 70%;
+    width: 700px;
+    top: 80%;
     left: 20%;
     color: #fff;
     font-size: 150%;
@@ -64,13 +72,14 @@ html {
 /*----------- HEADER ------------ */
 
 header {
-    padding-bottom: 75px;
+    padding-bottom: 55px;
     background-color: #4b6584;
     color: #fff;
 }
 
 .row-header {
     margin: 0 3% 0 10%;
+    padding: 0;
 }
 
 .row-header a:link,
@@ -80,16 +89,17 @@ header {
 }
 
 .name {
-    margin-top: 35px;
+    margin-top: 1%;
     float: left;
     font-weight: 300;
+    font-size: 130%;
+    cursor: pointer;
 }
 
 .nav {
     float: right;
     list-style: none;
-    margin-top: 30px;
-    font-size: 150%;
+    font-size: 110%;
     color: #fff;
 }
 
@@ -97,6 +107,8 @@ header {
     display: inline-block;
     margin-left: 40px;
     transition: font-weight 0.2s;
+    vertical-align: center;
+    cursor: pointer;
 }
 
 .nav li a:link,
@@ -110,10 +122,11 @@ header {
 }
 
 .logo {
-    height: 30px;
+    height: 35px;
     width: auto;
     border: 0px solid #4b6584;
     transition: border 0.2s;
+    padding-top: 10px;
 }
 
 .logo:hover {
@@ -123,18 +136,43 @@ header {
 
 /*----------- PORTFOLIO ------------ */
 
+.conatiner {
+    max-width: 80%;
+}
+
+.tile {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 30px;
+}
+
 
 .col {
 	display: block;
-	float:left;
-	margin: 1% 0 1% 1.6%;
+    float:left;
+    text-align: center;
+    margin: 40px 20px 40px 20px ;
+    width: 45%;
 }
 
+<<<<<<< HEAD
+=======
+.col p,
+.col h3 {
+    padding-top: 20px;
+    padding-left: 30px;
+    text-align: left;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+
+>>>>>>> portfolio-page-design
 .span-1-of-2 {
 	width: 45%;
 }
 
 
+<<<<<<< HEAD
 .tile {
     border: 2px solid #4b6584;
     border-radius: 10px;
@@ -167,4 +205,119 @@ header {
     margin: 0 auto;
     padding: 5%;
     border-radius: 50px;
+=======
+.tile img {
+    width: 400px;
+    height:auto;
+    max-width: 100%;
+    float: right;
+    border-radius: 10px;    
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+	content: '.';
+	clear: both; /*this class clears floats after an element*/
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+/*----------- INTERESTS ------------ */
+
+.interests {
+    padding-top: 100px;
+    position: center;
+    /* left: 19%;
+    top: 50%; */
+}
+
+.row ul {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.interests-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.interests-showcase li {
+    float: left;
+    display: block;
+    width: 16.6%;
+    cursor: pointer;
+}
+
+.interest-pic {
+    width: 100%;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.interest-pic img {
+    opacity: 0.7;
+    width:100%;
+    height: 200px;
+    background-size: cover;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.interest-pic img:hover {
+    transform: scale(1.03);
+	opacity: 1;
+}
+
+.interest-text {
+    padding-top: 5%;
+    width:45%;
+    text-align: justify;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+
+/*----------- CONTACT ------------ */
+
+form {
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 40px;
+}
+
+.col-form {
+    display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+
+.span-1-of-3 {
+	width: 30%;
+}
+
+.span-2-of-3 {
+    width: 60%;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+textarea {
+    height: 100px;
+    font-family: inherit;
+}
+
+input[type = submit] {
+    width: 30%;
+    padding: 10px 10px;
+    background-color: #4b6584;
+    color: #fff;
+    border-radius: 200px;
+>>>>>>> portfolio-page-design
 }
