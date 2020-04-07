@@ -13,83 +13,103 @@
 
 
 
-
 /*==============================*/
-/* MAX WIDTH 533PX */
+/* MAX WIDTH 1017PX */
 /*==============================*/
 
 
-/* Small phones for 0 to 480px */
-@media only screen and (max-width: 533px) {
-
-    .name {
-        margin-top: 1%;
-        float: left;
-        font-weight: 300;
-        font-size: 100%;
-    }
-    
-    .nav {
-        float: right;
-        list-style: none;
-        font-size: 80%;
-    }
-
-    .interest-text {
-        width:90%;
-    }
-
-    form {
-        width: 90%;
-        padding-top: 40px;
-    }
-
-    
+@media only screen and (max-width: 1017px) {
+    /* TITLE */
     .title {
-        font-size: 140%;
+        font-size: 160%;
     }
 
-    p {
-        font-size: 80%;
-    }
 
-    /* PORTFOLIO PAGE */
+    /* HOME */
+    .nav li { margin-left: 25px; }
+    /* PORTFOLIO */
     .conatiner {
         max-width: 100%;
     }
-    
     .tile {
         padding-left: 0;
         padding-right: 0;
-        /* padding-top: 30px; */
+        padding-top: 30px;
     }
-    
-    
-    .col {
-        display: inline-block;
-        float:left;
-        text-align: center;
-        margin: 40px 20px 40px 20px ;
-        width: 100%;
+    h3 { font-size: 120%; }
+    p { font-size: 85%; }
+
+    /* CONTACT */
+    form { width: 70%; }
+    /* INTERESTS */
+    .interests {
+        padding-top: 50px;
+        position: center;
+        /* left: 19%;
+        top: 50%; */
     }
-    
+}
+
+
+
+/*==============================*/
+/* MAX WIDTH 816PX */
+/*==============================*/
+@media only screen and (max-width: 816px) {
+
+
+    /* PORTFOLIO PAGE */
+    .span-1-of-2 {
+        width: 40%;
+    }
     .col h3 {
-        padding-top: 5px;
-    }
-    .col p {
-        padding-top: 20px;
+        padding-top: 0px;
     }
     .col p,
     .col h3 {
+    padding-left: 20px;
+    }
+    .col p { padding-top: 5px;}
+    .image { margin-left: 10%; }
 
-        padding-left: 30px;
-        text-align: left;
-        word-spacing: 3px;
-        letter-spacing: 1px;
+    .clearfix {zoom: 1}
+    .clearfix:after {
+	content: '.';
+	clear: both;
+	display: block;
+	height: 0;
+	visibility: hidden;
     }
-    
-    .span-1-of-2 {
-        width: 45%;
+    /* INTERESTS PAGE */
+    .interests-showcase li {
+        height: 200px;
+        width: 230px;
+        width: 33.3%;
+        overflow: hidden;
     }
-    
-} 
+    .interest-text {
+        width:90%;
+        word-spacing: 0;
+        text-align: justify;
+    }
+    .welcome {
+        text-align: center;
+    }
+
+}
+
+/*==============================*/
+/* MAX WIDTH 740PX */
+/*==============================*/
+@media only screen and (max-width: 740px) {
+    /* PORTFOLIO PAGE */   
+    .span-1-of-1 { width: 90%; }
+    .col p,
+    .col h3 { text-align: justify; }
+    .tile img { float: none; margin-bottom: 50px; }
+    .tile { padding: 0;}
+    .col { margin: 40px 20px 0px 20px; }
+}
+
+/* - hamburger navbar */
+

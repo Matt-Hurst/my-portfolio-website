@@ -25,11 +25,7 @@ html {
 /*----------- REUSABLE COMPONENTS ------------ */
 
 .row {
-<<<<<<< HEAD
-    max-width: 1700px;
-=======
     max-width: 1170px;
->>>>>>> portfolio-page-design
     margin: 0 auto;
 }
  
@@ -89,11 +85,13 @@ header {
 }
 
 .name {
-    margin-top: 1%;
+    /* margin-top: 1%; */
     float: left;
     font-weight: 300;
     font-size: 130%;
     cursor: pointer;
+    padding-top: 14px;
+    color: rgb(204, 205, 209);
 }
 
 .nav {
@@ -107,7 +105,7 @@ header {
     display: inline-block;
     margin-left: 40px;
     transition: font-weight 0.2s;
-    vertical-align: center;
+    /* vertical-align: center; */
     cursor: pointer;
 }
 
@@ -155,8 +153,6 @@ header {
     width: 45%;
 }
 
-<<<<<<< HEAD
-=======
 .col p,
 .col h3 {
     padding-top: 20px;
@@ -166,46 +162,11 @@ header {
     letter-spacing: 1px;
 }
 
->>>>>>> portfolio-page-design
 .span-1-of-2 {
 	width: 45%;
 }
 
 
-<<<<<<< HEAD
-.tile {
-    border: 2px solid #4b6584;
-    border-radius: 10px;
-    background-color: #fff;
-    margin: 2.5% 2.5%;
-    height: 500px;
-}
-
-.tile h2,
-.tile p {
-    text-align: center;
-    margin: 20px 0 40px 0;
-}
-
-.tile h4 {
-    text-align: center;
-}
-
-
-.picture {
-    height: 60%;
-    width: 80%;
-    margin: 0 auto;
-    padding: 0;
-}
-
-.port-img {
-    width:100%;
-    height:auto;
-    margin: 0 auto;
-    padding: 5%;
-    border-radius: 50px;
-=======
 .tile img {
     width: 400px;
     height:auto;
@@ -214,14 +175,14 @@ header {
     border-radius: 10px;    
 }
 
-.clearfix {zoom: 1}
+/* .clearfix {zoom: 1}
 .clearfix:after {
 	content: '.';
-	clear: both; /*this class clears floats after an element*/
+	clear: both;
 	display: block;
 	height: 0;
 	visibility: hidden;
-}
+} */
 
 /*----------- INTERESTS ------------ */
 
@@ -247,6 +208,7 @@ header {
     display: block;
     width: 16.6%;
     cursor: pointer;
+    padding-bottom: 10px;
 }
 
 .interest-pic {
@@ -319,5 +281,4 @@ input[type = submit] {
     background-color: #4b6584;
     color: #fff;
     border-radius: 200px;
->>>>>>> portfolio-page-design
 }

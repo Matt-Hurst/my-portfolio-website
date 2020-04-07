@@ -9,7 +9,7 @@ import ChallPic from "../img/toughmudder.jpg"
 
 const Interests = (props)=> {
 
-    const [message, setMessage] = useState(<p>Welcome to my interests page. Simply click on any image below to find out more.</p>);
+    const [message, setMessage] = useState(<p class="welcome">Welcome to my interests page. Simply click on any image below to find out more.</p>);
    
     // handleClick function for each image, changing the message (setMessage) to <p>hobby info<p>
     const footballClicked = ()=> {
@@ -19,7 +19,7 @@ const Interests = (props)=> {
         setMessage(<p>Whilst on a trip to Bali in 2012 I tried surfing for the first time and was hooked. Since then I have thrown myself at waves across the UK, Portugal, and Central America.</p>)
     }
     const travelClicked = ()=> {
-        setMessage(<p>I love travelling to new places and experiencing new, different cultures. Most recently I spent a week in Kyrgyzstan for the World Nomad Games. Previously, I have spent four months in Central America, and several months in South East Asia.</p>)
+        setMessage(<p>I love travelling to new places and experiencing different cultures. My travels have taken me to Kyrgyzstan for the World Nomad Games, through Central America, and to South East Asia four times.</p>)
     }
     const bookClicked = ()=> {
     setMessage(<p>There is no greater entertainment than a good book. I'm a big fan of historical fiction, sci-fi, and learning new things through non-fiction. My favourite author is James Clavell and I am always open to book recommendations.</p>)
@@ -47,7 +47,7 @@ const Interests = (props)=> {
                 {message}
             </div>
             <div className="interests row">
-                <ul className="interests-showcase clearfix">
+                <ul className="interests-showcase">
                     <li>
                         <figure className="interest-pic"
                         onClick={()=> {
@@ -102,35 +102,6 @@ const Interests = (props)=> {
                             <img src={FoodPic}></img>
                         </figure>
                     </li>
-                </ul>
-                <ul className="interests-showcase clearfix">
-                    {/* <li>
-                        <figure className="interest-pic"
-                        onClick={()=> {
-                            bookClicked();
-                         }}
-                        >
-                            <img src={BookPic}></img>
-                        </figure>
-                    </li>
-                    <li>
-                        <figure className="interest-pic"
-                        onClick={()=> {
-                            challengeClicked();
-                         }}
-                        >
-                            <img src={ChallPic}></img>
-                        </figure>
-                    </li>
-                    <li>
-                        <figure className="interest-pic"
-                        onClick={()=> {
-                            foodClicked();
-                         }}
-                        >
-                            <img src={FoodPic}></img>
-                        </figure>
-                    </li> */}
                 </ul>
             </div>
         </div>

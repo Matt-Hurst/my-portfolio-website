@@ -15,12 +15,12 @@ const Header = (props)=> {
     return(
         <header>
             <div className="row-header">
-                <h1 className="name" 
+                <p className="name" 
                     onClick={()=> {
                         props.homeClick();
                         }}
                         >
-                Matthew Hurst</h1>
+                Matthew Hurst</p>
                 <ul className="nav">
                     <li
                         onClick={()=> {
