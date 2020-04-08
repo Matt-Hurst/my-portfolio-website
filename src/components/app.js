@@ -8,9 +8,9 @@ import "../queries.css"
 
 const App = ()=> {
     
-    const [home, setHome] = useState(false);
+    const [home, setHome] = useState(true);
     const [portfolio, setPortfolio] = useState(false);
-    const [certs, setCerts] = useState(true);
+    const [certs, setCerts] = useState(false);
     const [interests, setInterests] = useState(false);
     const [contact, setContact] = useState(false);
     
