@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Home from "./home";
 import Portfolio from "./portfolio";
-import Certificate from "./cv";
+import Certificate from "./certificate";
 import Interests from "./interests";
 import Contact from "./contact";
 import "../queries.css"

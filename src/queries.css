@@ -45,8 +45,6 @@
     .interests {
         padding-top: 50px;
         position: center;
-        /* left: 19%;
-        top: 50%; */
     }
 }
 
@@ -103,11 +101,28 @@
         left: 17%;
     }
 
+    .nav {
+        display: none;
+    }
+
+    /* HAMBURGER NAVBAR */
+    .hamIcon {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        font-size: 150%;
+        cursor: pointer;
+        -webkit-transition: font-size 0.2s;
+        transition: font-size 0.2s;
+    }
+    .hamIcon:hover {
+        font-size: 160%;
+    }
 
 }
 
 /* REMOVE HAM ICON */
-@media only screen and (min-width: 741px) {
+@media only screen and (min-width: 817px) {
     .hamIcon {
         display: none;
     }
@@ -117,6 +132,15 @@
 /* MAX WIDTH 740PX */
 /*==============================*/
 @media only screen and (max-width: 740px) {
+    
+    /* CERTIFICATES PAGE */
+    #cert-img1 {
+        margin-bottom: 0px;
+    }
+    #cert-text1 {
+        margin-bottom: 40px;
+    }
+    
     /* PORTFOLIO PAGE */   
     .span-1-of-1 { width: 90%; }
     .col p,
@@ -131,23 +155,6 @@
         left: 7%;
         color: #fff;
         font-size: 115%;
-    }
-
-/* HAMBURGER NAVBAR */
-    .nav {
-        display: none;
-    }
-
-    .hamIcon {
-        position: absolute;
-        right: 15px;
-        top: 15px;
-        font-size: 150%;
-        cursor: pointer;
-        transition: font-size 0.2s;
-    }
-    .hamIcon:hover {
-        font-size: 160%;
     }
 
 }

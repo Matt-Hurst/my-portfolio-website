@@ -31,7 +31,7 @@ const Portfolio = (props)=> {
                             </div>
                             <div className="col span-1-of-2 span-1-of-1">
                                 <a href={piece.website} target="blank">
-                                    <img src={piece.img} alt={piece.alt} />
+                                    <img class="portfolio-img" src={piece.img} alt={piece.alt} />
                                 </a>
                             </div>
                          </div>

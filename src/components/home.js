@@ -12,7 +12,7 @@ const Home = (props)=> {
             <Header 
                 homeClick = {props.homeClick}
                 portfolioClick={props.portfolioClick}
-                cvClick={props.cvClick}
+                certsClick={props.certsClick}
                 interestsClick={props.interestsClick}
                 contactClick={props.contactClick}       
             />
