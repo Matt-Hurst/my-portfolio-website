@@ -134,10 +134,12 @@
 @media only screen and (max-width: 740px) {
     
     /* CERTIFICATES PAGE */
-    #cert-img1 {
+    #cert-img1,
+    #cert-img2 {
         margin-bottom: 0px;
     }
-    #cert-text1 {
+    #cert-text1,
+    #cert-text2 {
         margin-bottom: 40px;
     }
     
