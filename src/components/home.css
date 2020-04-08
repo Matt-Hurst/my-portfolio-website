@@ -1,8 +1,8 @@
 /*----------- HOME ------------ */
 
 .home {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/london2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url(../img/london2.jpg);
     background-size: cover;
-    background-position: 0 -20px;
+    background-position: 0 -5%;
     height: 100vh;
 }

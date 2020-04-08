@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Header from "./header"
 
-const CV = (props)=> {
+const Certificate = (props)=> {
 
 
     return (
@@ -9,16 +9,19 @@ const CV = (props)=> {
             <Header 
                 homeClick = {props.homeClick}
                 portfolioClick={props.portfolioClick}
-                cvClick={props.cvClick}
+                certsClick={props.certsClick}
                 interestsClick={props.interestsClick}
                 contactClick={props.contactClick}                 
             />
             <div className="title-row">
                 <h1 className="title">CV & CERTIFICATE PAGE</h1>
             </div>
+            <div>
+                <a href="../img/WebDevBoot.pdf">Click here to view</a>
+            </div>
 
         </div>
     )
 }
 
-export default CV;
+export default Certificate;

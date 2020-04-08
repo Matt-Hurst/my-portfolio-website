@@ -73,6 +73,30 @@ header {
     color: #fff;
 }
 
+.dropMenu {
+    position: absolute;
+    width: 200px;
+    height: 280px;
+    z-index: 1;
+    background: #4b6584;
+    opacity: 0.96;
+    list-style: none;
+    top: 12%;
+    right: 1%;
+    border: 2px solid#384c64;
+    border-radius: 5px;
+}
+
+.dropMenu li {
+    padding: 20px;
+    font-size: 130%;
+    cursor: pointer;
+    text-align: center;
+}
+.dropMenu a:first-child {
+    padding-right: 20px;
+}
+
 .row-header {
     margin: 0 3% 0 10%;
     padding: 0;

@@ -96,6 +96,21 @@
         text-align: center;
     }
 
+    /* HOME PAGE */
+    .home-text {
+        font-size: 130%;
+        top: 70%;
+        left: 17%;
+    }
+
+
+}
+
+/* REMOVE HAM ICON */
+@media only screen and (min-width: 741px) {
+    .hamIcon {
+        display: none;
+    }
 }
 
 /*==============================*/
@@ -109,7 +124,30 @@
     .tile img { float: none; margin-bottom: 50px; }
     .tile { padding: 0;}
     .col { margin: 40px 20px 0px 20px; }
+
+    /* HOME PAGE */
+    .home-text {
+        top: 70%;
+        left: 7%;
+        color: #fff;
+        font-size: 115%;
+    }
+
+/* HAMBURGER NAVBAR */
+    .nav {
+        display: none;
+    }
+
+    .hamIcon {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        font-size: 150%;
+        cursor: pointer;
+        transition: font-size 0.2s;
+    }
+    .hamIcon:hover {
+        font-size: 160%;
+    }
+
 }
-
-/* - hamburger navbar */
-
