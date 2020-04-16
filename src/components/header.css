@@ -71,6 +71,12 @@ ul {
 .ham-icon {
     padding-right: 1rem;
     cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.drop-logo {
+    height: 2rem;
+    margin: 2rem 1rem 1rem 1rem;
 }
 
 .logo {

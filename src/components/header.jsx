@@ -32,6 +32,14 @@ const Header = ()=> {
                         <Link to="/certificates">
                             <li onClick={handleLinkClick}>Certificates</li>
                         </Link>
+                        <div className="logo-links">
+                            <a href="https://www.linkedin.com/in/matthew-a-hurst/" target="blank">
+                            {<img src={LinkedIn} className="drop-logo"></img>}
+                            </a>
+                            <a href="https://github.com/Matt-Hurst" target="blank" target="blank">
+                            {<img src={Github} className="drop-logo"></img>}
+                            </a>
+                        </div>
                     </ul>
                 </div>
             </nav>
