@@ -1,0 +1,57 @@
+.certificate-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: space-between;
+}
+.cert {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 2rem 2rem 2rem;
+    text-align: center;
+    border-bottom: 1px solid rgb(228, 228, 228);
+}
+.cert__img img{
+    width: 16rem;
+    height: auto;
+}
+.cert__title {
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+.cert__desc {
+    text-align: start;
+    margin: 1rem;
+}
+
+@media only screen and (min-width: 375px) {
+    .cert { margin-bottom: 3rem;}
+    .cert__title { margin: 1rem 0; font-size: 1.5rem;}
+    .cert__desc { margin: 1rem 0;}
+    .cert__desc { padding-bottom: 2rem;}    
+}
+
+@media only screen and (min-width: 550px) {
+    .cert__img img{ width: 20rem; height: auto; }
+    .cert__title { font-size: 1.5rem; margin: 1rem; }
+    
+}
+
+@media only screen and (min-width: 750px) {
+    .cert__img img{ width: 25rem; height: auto; }
+}
+
+@media only screen and (min-width: 1000px) {
+    .cert { flex-direction: row; width: 80vw; padding-bottom: 3rem; margin-top: 2rem;}
+    .cert__img img{ width: 20rem; height: auto; }
+    .cert p { margin-left: 2rem; }
+    .cert__title { line-height: 1.5rem;}
+}
+
+@media only screen and (min-width: 1230px) {
+    .cert { width: 70vw;  }
+}

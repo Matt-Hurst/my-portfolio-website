@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 112.5%;
+    font-family: 'Lato', sans-serif;
+    color:#4b6584;
+    background-color: #f4f4f4;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    line-height: 120%;
+    letter-spacing: .2rem;
+}
+/************************************
+======= REUSABLE COMPONENTS =======
+************************************/
+
+.title-row {
+    margin: 2rem;
+}
+
+.title {
+    padding: 1rem;
+    border-bottom: 3px solid #4b6584;
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,186 @@
+.interest-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.interest-text {
+    margin: 0 1rem 2rem 1rem;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+}
+
+.interests {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.interests-showcase {
+    display: inline-flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: center;
+}
+
+.interests-showcase li {
+    display: inline-block;
+    width: 30%;
+}
+
+.interest-pic {
+    overflow: hidden;
+    width: 100%;
+}
+
+.interest-pic img {
+    max-height: 120px;
+    overflow: hidden;
+    width: 105px;
+    opacity: 0.7;
+    transition: opacity 0.5s, transform 0.5s;
+    transform: scale(1.12)
+}
+
+.interest-pic img:hover {
+    opacity: 1;
+    transform: scale(1.08)
+}
+
+.p-interests { 
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 2px;
+    text-align: justify;
+}
+
+
+@media only screen and (min-width: 320px) {
+    .interest-pic img {
+        max-height: 110px;
+        width: 95px;
+    }
+    .interest-text {
+        height: 12rem;
+    }
+}
+
+@media only screen and (min-width: 360px) {
+    .interest-pic img {
+        max-height: 130px;
+        width: 115px;
+    }
+    .interest-text {
+        height: 11rem;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    .interest-pic img {
+        max-height: 150px;
+        width: 135px;
+    }
+    .p-interests { margin: 1rem 3rem;}
+    .interest-page .title { margin: 1rem 0 0 0;}
+}
+
+@media only screen and (min-width: 584px) {
+    .interest-pic img {
+        max-height: 170px;
+        width: 155px;
+    }
+}
+
+@media only screen and (min-width: 670px) {
+    .interest-pic img {
+        max-height: 190px;
+        width: 175px;
+    }
+    .p-interests { 
+        font-size: 1rem;
+        line-height: 1.5rem;
+        letter-spacing: 2px;
+        text-align: justify;
+        margin-top: 1rem;
+    }
+    .interest-page .title { margin: 1rem;}
+}
+
+
+@media only screen and (min-width: 737px) {
+    .interest-pic img {
+        max-height: 210px;
+        width: 195px;
+    }
+    .p-interests { font-size: 1.5rem; margin-left: 5rem; margin-right: 5rem;
+    }
+}
+
+@media only screen and (min-width: 855px) {
+    .interest-text {
+        height: 10rem;
+    }
+
+    .interests {
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+    }
+
+    .interests-showcase {
+        display: inline-flex;
+        width: 100%;
+        align-self: center;
+        justify-content: center;
+
+    }
+
+    .interests-showcase li {
+        display: inline-block;
+        width: 15%;
+    }
+
+    .interest-pic img {
+        max-height: 120px;
+        width: 105px;
+    }
+}
+
+@media only screen and (min-width: 855px) {
+    .interests { width: 70%;}
+    .interest-pic img {
+        max-height: 150px;
+        width: 135px;
+    }
+
+}
+
+@media only screen and (min-width: 1063px) {
+    .interest-pic img {
+        max-height: 160px;
+        width: 145px;
+    }
+    .interest-text {
+        margin: 0 3rem 2rem 3rem;
+        height: 8rem;
+    }
+}
+
+@media only screen and (min-width: 1063px) {
+    .interest-pic img {
+        max-height: 190px;
+        width: 175px;
+    }
+    .interest-text {
+        margin: 0 3rem 2rem 3rem;
+        height: 8rem;
+    }
+    
+
+}

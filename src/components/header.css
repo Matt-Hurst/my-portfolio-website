@@ -1,0 +1,93 @@
+.header-container {
+    font-size: 1rem;
+    background-color: #4b6584;
+    color: #fff;
+    /* min-height: 3rem; */
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.name {
+    color: #fff;
+    padding-left: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.navbar {
+    display: none;
+}
+
+ul {
+    list-style: none;
+}
+
+ 
+
+.navbar ul li {
+    display: inline-flex;
+    margin-right: 2rem;
+}
+
+.navbar ul a {
+    text-decoration: none;
+    display: inline;
+    color: #fff;
+    font-weight: normal;
+    transition: font-weight 0.3s;
+}
+
+.navbar ul a:hover {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.hamburger-nav {
+    color: #fff;
+}
+
+.drop-down-menu {
+    vertical-align: middle;
+    display: table-cell;
+    background: #4b6584;
+    font-size: 2rem;
+    width: 500vh;
+    text-align: center;
+}
+
+.drop-down-menu li {
+    padding: 1rem 0;
+    width: 100%;
+    font-weight: 300;
+    transition: font-weight 0.3s;
+    color: #fff;
+}
+
+.drop-down-menu li:hover {
+    font-weight: 500;
+}
+
+.ham-icon {
+    padding-right: 1rem;
+    cursor: pointer;
+}
+
+.logo {
+    height: 1rem;
+    margin: 0 1rem 0 .2rem;
+    border: 0px solid #4b6584;
+    transition: border 0.2s;
+}
+
+.logo:hover {
+    border: 1px solid #4b6584;
+}
+
+@media only screen and (min-width: 900px) {
+    .ham-icon {display: none; }
+    .navbar { display: flex; }
+
+
+
+}

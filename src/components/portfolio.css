@@ -1,0 +1,56 @@
+.portfolio-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: space-between;
+}
+
+
+.work__container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+   
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem 1rem 2rem;
+    flex-wrap: wrap;
+    border-bottom: 1px solid rgb(228, 228, 228);
+}
+
+.work__text {
+    order: -1;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.work__img {
+    justify-content: center;
+    margin: 1rem;
+
+}
+
+.portfolio-img {
+    width: 16rem;
+    justify-self: center;
+    border-radius: 2px;    
+    box-shadow: 2px 2px 5px rgb(184, 184, 184);
+
+}
+.work__text p {
+    font-size: 0.8rem;
+    margin-top: 0.3rem;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+@media only screen and (min-width: 1040px) {
+    .work__text { flex: 1; order: 2 }
+    .work__img { flex: 1; }
+    .work__text { align-items: flex-start; }
+    .work__container { width: 60%; }
+}
