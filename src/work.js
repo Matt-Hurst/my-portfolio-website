@@ -32,7 +32,7 @@ const work = [
         name: "Treasure Hunt",
         img: require("./img/quiz.PNG"),
         alt: "Treasure hunt website",
-        website: "https://csb-ddi9o.netlify.com",
+        website: "https://csb-j9w1w.netlify.com",
         tech: "React",
         desc: "A framework to help create a treasure hunt. The code is available on my github. Just fill in the directions, questions, and answers on the json file and let the hunt begin."
     }
