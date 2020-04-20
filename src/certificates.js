@@ -11,6 +11,15 @@ const certificates = [
     },
     {
         id: 2,
+        title: "The Complete JavaScript Course 2020",
+        img: require("./img/JS.jpg"),
+        alt: "The Complete JavaScript Course 2020 completion certificate",
+        website: "https://www.udemy.com/course/the-complete-javascript-course/",
+        length: 28,
+        desc: "Complete JavaScript programming course covering ES6, Asynchronous JavaScript, NPM, Webpack, Babel, and JavaScript fundamentals."
+    },
+    {
+        id: 3,
         title: "Build Responsive Real World Websites with HTML5 and CSS3",
         img: require("./img/CSSHTML-Course-1.jpg"),
         alt: "Build Responsive Real World Websites with HTML5 and CSS3 completion certificate",
