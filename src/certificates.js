@@ -12,7 +12,7 @@ const certificates = [
     {
         id: 2,
         title: "The Complete JavaScript Course 2020",
-        img: require("./img/JS.jpg"),
+        img: require("./img/complete-javascript.jpg"),
         alt: "The Complete JavaScript Course 2020 completion certificate",
         website: "https://www.udemy.com/course/the-complete-javascript-course/",
         length: 28,
