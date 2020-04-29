@@ -14,6 +14,7 @@ const Header = ()=> {
     const handleClick = () => { dropMenu ? setDropMenu(false): setDropMenu(true)  }
     const handleLinkClick = () => { setDropMenu(false) }
     
+    
     //By default want the drop menu icon showing, and to return drop menu (sepereate function) if clicked.
     //Also have a navbar element
     //When reaches certain screen size add className="hidden" to dropmenu and remove from navbar
@@ -51,7 +52,7 @@ const Header = ()=> {
         <div>  
             <div className="header-container">
                 <div>
-                    <Link className="name" to="/">Matt Hurst</Link>
+                    <Link className="name" to="/" onClick={handleLinkClick}>Matt Hurst</Link>
                 </div>
                 <div className="hamburger">
                     <div className="ham-icon" onClick={handleClick}>&#9776;</div>
