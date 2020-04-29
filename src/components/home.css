@@ -40,11 +40,11 @@ h1, h2, p { cursor: default; }
     padding: 1rem;
     border-bottom: 3px solid #4b6584;
 }
-p {
+.homeP {
     max-width: 600px;
     margin: 1rem;
 }
-p:last-child { margin-bottom: 6rem; }
+.homeP:last-child { margin-bottom: 4rem; }
 
 /* @media only screen and (min-width: 715px) {
 
@@ -92,7 +92,7 @@ p:last-child { margin-bottom: 6rem; }
 @media only screen and (min-width: 1072px) {
 
     .home h2 { margin: 0 10rem 3rem 10rem; font-size: 2rem; line-height: 3rem; }
-    p { font-size: 1.4rem; line-height: 2rem; max-width: 700px; font-weight: 300;}
+    .homeP { font-size: 1.4rem; line-height: 2rem; max-width: 700px; font-weight: 300;}
     /* .home h1 { margin-top: 4rem;} */
 
 }

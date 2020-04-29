@@ -7,7 +7,7 @@ const work = [
         alt: "Meal delivery website",
         website: "https://nervous-neumann-4c0c94.netlify.com/",
         tech: "HTML5, CSS3, jQuery",
-        desc: "An example of a one page website for a meal delivery company focused on getting you eating clean, and looking lean."
+        desc: 'An example of a one page website for a meal delivery company focused on getting you eating clean, and looking lean. I completed this as my main project for the CSS course "Build Responsive Real World Websites with HTML5 and CSS3."'
     },
     {
         id: 2,
@@ -16,7 +16,7 @@ const work = [
         alt: "Cheese blog website",
         website: "https://limitless-everglades-80285.herokuapp.com/",
         tech: "Gatsby",
-        desc: "A blog website following the trials and tribulations of one man's cheese ponderings."
+        desc: "A blog website following the trials and tribulations of one man's cheese ponderings. I created this blog to help me learn Gatsby and GraphQL. It is about cheese because cheese is amazing. Fact."
     },
     {
         id: 3,
@@ -25,7 +25,7 @@ const work = [
         alt: "Colour Game Website",
         website: "https://priceless-lamport-af389d.netlify.com",
         tech: "jQuery",
-        desc: "Two player game. Click the name of the colour shown, however the colour of the names is randomised making the task trickier than you might think."
+        desc: 'I created this game in January 2020 to help cement my JavaScript and jQuery learnings from the course I was taking at the time, "The Complete JavaScript Course 2020." This was before I learnt ES6. It\'s a fun and frustrating two player game, give it a try! '
     },
     {
         id: 4,
@@ -34,7 +34,7 @@ const work = [
         alt: "Treasure hunt website",
         website: "https://csb-j9w1w.netlify.com",
         tech: "React",
-        desc: "A framework to help create a treasure hunt. The code is available on my github. Just fill in the directions, questions, and answers on the json file and let the hunt begin."
+        desc: "I built this to create a treasure hunt for my girlfriend in our apartment, to entertain her on her birthday during lockdown. The code is available on my github and it can be easily adjusted for your next treasure hunt adventure! The answers in order are: oomph, purple, edam, 74, 26, italy."
     }
 ]
 

@@ -22,7 +22,6 @@ const Portfolio = () => {
                             <p>Built with {piece.tech}</p>
                             <p><em>{piece.desc}</em></p>
                     </div>
-                    {/* <div className="clearfix"></div> */}
                 </div>
                 )
             }
