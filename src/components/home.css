@@ -34,7 +34,7 @@ h1, h2, p { cursor: default; }
 }
 .about {
     max-width: 400px;
-    margin: 4rem;
+    margin: 4rem 0;
     text-align: center;
     font-size: 2rem;
     padding: 1rem;
