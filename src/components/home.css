@@ -41,7 +41,7 @@ h1, h2, p { cursor: default; }
     border-bottom: 3px solid #4b6584;
 }
 p {
-    max-width: 532px;
+    max-width: 600px;
     margin: 1rem;
 }
 p:last-child { margin-bottom: 6rem; }
