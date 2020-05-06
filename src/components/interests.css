@@ -34,16 +34,14 @@
 }
 
 .interest-pic {
-    overflow: hidden;
+    overflow: hidden; 
     width: 100%;
 }
 
 .interest-pic img {
-    width: 100%;
-    height: auto;
-    /* max-height: 120px; */
+    max-height: 120px;
     overflow: hidden;
-    /* width: 105px; */
+    width: 105px;
     opacity: 0.7;
     transition: opacity 0.5s, transform 0.5s;
     transform: scale(1.12)

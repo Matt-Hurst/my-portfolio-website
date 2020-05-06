@@ -2,11 +2,11 @@ import React, { useState } from "react"
 import "./interests.css"
 
 import FtPic from "../img/football.jpg"
-import SurfPic from "../img/surfing.jpg"
+import SurfPic from "../img/surfing2.jpg"
 import TravPic from "../img/travel2.jpg"
 import FoodPic from "../img/sushi.jpeg"
 import BookPic from "../img/books.jpg"
-import ChallPic from "../img/toughmudder.jpg"
+import ChallPic from "../img/toughmudder.v1.jpg"
 
 const Interests = () => {
         const [imageClicked, setImageClicked] = useState("none");
