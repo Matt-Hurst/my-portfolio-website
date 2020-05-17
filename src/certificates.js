@@ -27,6 +27,15 @@ const certificates = [
         length: 12,
         desc: "Front end web design course covering web design, responsive web design, jQuery, and animation effects."
     },
+    {
+        id: 4,
+        title: "Complete Python Bootcamp",
+        img: require("./img/Python.jpg"),
+        alt: "Complete python bootcamp completion certificate",
+        website: "https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/",
+        length: 24,
+        desc: "Course covers Pythons different data types, functions, scope, args/kwargs, debugging, modules, OOP, inheritance, polymprophism, and unit tests."
+    }
 ]
 
 export default certificates;
