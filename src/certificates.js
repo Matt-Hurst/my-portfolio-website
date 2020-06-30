@@ -32,7 +32,7 @@ const certificates = [
         title: "Complete Python Bootcamp",
         img: require("./img/Python.jpg"),
         alt: "Complete python bootcamp completion certificate",
-        website: "https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/",
+        website: "https://www.udemy.com/course/complete-python-bootcamp/",
         length: 24,
         desc: "Course covers Pythons different data types, functions, scope, args/kwargs, debugging, modules, OOP, inheritance, polymprophism, and unit tests."
     }
