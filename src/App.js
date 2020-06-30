@@ -1,4 +1,4 @@
-import React, { Children } from 'react';
+import React from 'react';
 import Header from "./components/header"
 import Home from "./components/home"
 import Portfolio from "./components/portfolio"
@@ -9,7 +9,6 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 
 

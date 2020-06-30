@@ -37,10 +37,10 @@ const Header = ()=> {
                         </Link>
                         <div className="logo-links">
                             <a href="https://www.linkedin.com/in/matthew-a-hurst/" target="blank">
-                            {<img src={LinkedIn} className="drop-logo"></img>}
+                            {<img src={LinkedIn} className="drop-logo" alt="LinkedIn logo"></img>}
                             </a>
-                            <a href="https://github.com/Matt-Hurst" target="blank" target="blank">
-                            {<img src={Github} className="drop-logo"></img>}
+                            <a href="https://github.com/Matt-Hurst" target="blank">
+                            {<img src={Github} className="drop-logo" alt="Github logo"></img>}
                             </a>
                         </div>
                     </ul>
@@ -75,10 +75,10 @@ const Header = ()=> {
                             <li onClick={handleLinkClick}>Certificates</li>
                         </Link>
                         <a href="https://www.linkedin.com/in/matthew-a-hurst/" target="blank">
-                        {<img src={LinkedIn} className="logo"></img>}
+                        {<img src={LinkedIn} className="logo" alt="LinkedIn logo"></img>}
                         </a>
-                        <a href="https://github.com/Matt-Hurst" target="blank" target="blank">
-                        {<img src={Github} className="logo"></img>}
+                        <a href="https://github.com/Matt-Hurst" target="blank">
+                        {<img src={Github} className="logo" alt="Github logo"></img>}
                         </a>
                     </ul>
                 </nav>

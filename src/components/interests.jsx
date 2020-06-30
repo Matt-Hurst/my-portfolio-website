@@ -55,7 +55,7 @@ const Interests = () => {
                             footballClicked();
                          }}
                         >
-                            <img src={FtPic}></img>
+                            <img src={FtPic} alt="man playing football"></img>
                         </figure>
                     </li>
                     <li>
@@ -64,7 +64,7 @@ const Interests = () => {
                             surfClicked();
                          }}
                          >
-                            <img src={SurfPic}></img>
+                            <img src={SurfPic} alt="man holding surf board"></img>
                         </figure>
                     </li>
                     <li>
@@ -73,7 +73,7 @@ const Interests = () => {
                             travelClicked();
                          }}
                         >
-                            <img src={TravPic}></img>
+                            <img src={TravPic} alt="man sat on a bus"></img>
                         </figure>
                     </li>
                     <li>
@@ -82,7 +82,7 @@ const Interests = () => {
                             bookClicked();
                          }}
                         >
-                            <img src={BookPic}></img>
+                            <img src={BookPic} alt="man walking and reading a book"></img>
                         </figure>
                     </li>
                     <li>
@@ -91,7 +91,7 @@ const Interests = () => {
                             challengeClicked();
                          }}
                         >
-                            <img src={ChallPic}></img>
+                            <img src={ChallPic} alt="man carrying a log"></img>
                         </figure>
                     </li>
                     <li>
@@ -100,7 +100,7 @@ const Interests = () => {
                             foodClicked();
                          }}
                         >
-                            <img src={FoodPic}></img>
+                            <img src={FoodPic} alt="man eating sushi"></img>
                         </figure>
                     </li>
                 </ul>
