@@ -1,7 +1,9 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import {Helmet} from "react-helmet"
 import LinkedIn from "../img/li-white.png"
 import Github from "../img/GitHub-Mark-Light-64px.png"
+import favicon from "../img/laptop.png"
 
 import "./header.css"
 import { useState } from 'react';
@@ -49,7 +51,10 @@ const Header = ()=> {
     }
 
     return (
-        <div>  
+        <div>
+            <Helmet>
+                <link rel="icon" href={favicon} />
+            </Helmet>  
             <div className="header-container">
                 <div>
                     <Link className="name" to="/" onClick={handleLinkClick}>Matt Hurst</Link>
