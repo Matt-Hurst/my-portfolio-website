@@ -42,7 +42,7 @@ const work = [
         name: "Treasure Hunt",
         img: require("./img/quiz.PNG"),
         alt: "Treasure hunt website",
-        website: "https://csb-5lbs8.netlify.app/",
+        website: "https://fervent-allen-d12bde.netlify.app/",
         tech: "React",
         desc: "I built this to create a treasure hunt for my girlfriend in our apartment, to entertain her on her birthday during lockdown. The code is available on my github and it can be easily adjusted for your next treasure hunt adventure! The answers in order are: oomph, purple, edam, 74, 26, italy."
     }
