@@ -7,7 +7,11 @@ const work = [
         img: require("./img/wellboring.png"),
         alt: "image of a charity website",
         website: "https://www.wellboring.org/",
+<<<<<<< HEAD
+        tech: "Gatsby, React, Sass, GraphQL, Contentful, NodeJS",
+=======
         tech: "Gatsby, Sass, GraphQL, Contentful, NodeJS",
+>>>>>>> d24526a983093a5aff2705febcaae4f4630de59b
         desc: 'WellBoring, a fantastic volunteer run charity providing clean water in rural Kenya and beyond, had an old, unresponsive website. I saw an opportunity to put my coding skills to good use, whilst learning Gatsby. The result is a new modern, responsive static website to help spread the good WellBoring word.'
     },
     {
