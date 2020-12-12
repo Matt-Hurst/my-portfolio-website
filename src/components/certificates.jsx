@@ -8,9 +8,9 @@ const Certificates = ()=> {
             <div className="title-row">
                 <h1 className="title">Certificates</h1>
             </div>
-                <div className="certificates"> {certificates.map( (certificate) => {
+                <div className="certificates"> {certificates.map( (certificate, index) => {
                     return (
-                        <div className="cert">
+                        <div className="cert" key={index}>
                             <div className="cert__img">
                                 <a href={certificate.website} target="blank">
                                     <img src={certificate.img} alt={certificate.alt}/>

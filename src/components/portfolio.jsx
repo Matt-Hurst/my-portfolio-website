@@ -9,12 +9,12 @@ const Portfolio = () => {
             <h1 className="title">Portfolio</h1>
         </div>
         <div className="work">
-            <div>{work.map( (piece) => {
+            <div>{work.map( (piece, index) => {
                 return (
-                <div className="work__container">    
+                <div className="work__container" key={index}>    
                     <div className="work__img">
                         <a href={piece.website} target="blank">
-                            <img class="portfolio-img" src={piece.img} alt={piece.alt} />
+                            <img className="portfolio-img" src={piece.img} alt={piece.alt} />
                         </a>
                     </div>
                     <div className="work__text">

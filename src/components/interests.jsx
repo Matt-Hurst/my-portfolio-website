@@ -49,7 +49,7 @@ const Interests = () => {
             </div>
             <div className="interests">
                 <ul className="interests-showcase">
-                    <li>
+                    <li key="football">
                         <figure className={ imageClicked === "football" ? "selected interest-pic" : "interest-pic" }
                         onClick={()=> {
                             footballClicked();
@@ -58,7 +58,7 @@ const Interests = () => {
                             <img src={FtPic} alt="man playing football"></img>
                         </figure>
                     </li>
-                    <li>
+                    <li key="surf">
                         <figure className={ imageClicked === "surf" ? "selected interest-pic" : "interest-pic" }
                         onClick={()=> {
                             surfClicked();
@@ -67,7 +67,7 @@ const Interests = () => {
                             <img src={SurfPic} alt="man holding surf board"></img>
                         </figure>
                     </li>
-                    <li>
+                    <li key="travel">
                         <figure className={ imageClicked === "travel" ? "selected interest-pic" : "interest-pic" }
                         onClick={()=> {
                             travelClicked();
@@ -76,7 +76,7 @@ const Interests = () => {
                             <img src={TravPic} alt="man sat on a bus"></img>
                         </figure>
                     </li>
-                    <li>
+                    <li key="book">
                         <figure className={ imageClicked === "book" ? "selected interest-pic" : "interest-pic" }
                         onClick={()=> {
                             bookClicked();
@@ -85,7 +85,7 @@ const Interests = () => {
                             <img src={BookPic} alt="man walking and reading a book"></img>
                         </figure>
                     </li>
-                    <li>
+                    <li key="challenge">
                         <figure className={ imageClicked === "challenge" ? "selected interest-pic" : "interest-pic" }
                         onClick={()=> {
                             challengeClicked();
@@ -94,7 +94,7 @@ const Interests = () => {
                             <img src={ChallPic} alt="man carrying a log"></img>
                         </figure>
                     </li>
-                    <li>
+                    <li key="food">
                         <figure className={ imageClicked === "food" ? "selected interest-pic" : "interest-pic" }
                         onClick={()=> {
                             foodClicked();
