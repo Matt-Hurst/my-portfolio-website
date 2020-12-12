@@ -12,14 +12,11 @@ const Home = () => {
 
             <div className="home-text">
                 <h2 className="about">About Me</h2>
-                <p className="homeP">Hi, I'm Matt, a West London based web developer.</p>
-                <p className="homeP">In a previous life I worked in sales, but once I tried coding I was hooked. I love solving puzzles, logic problems, and above all creating things!</p>
-                <p className="homeP">I have learnt to code through online resources, including paid courses from Udemy, and by pestering my web developer friends for hints and tips.</p>
+                <p className="homeP">Hi, I'm Matt, a London based web developer.</p>
+                <p className="homeP">I'm a full stack software engineer experienced in the JavaScript eco-system who loves to build great applications with TypeScript, React, Redux, Express, and both SQL and NoSQL databases.</p>
                 <p className="homeP">I'm looking for a job where I can deliver great products whilst continuing to learn and advance my skillset.</p>
             </div>
-        </div>
-
-       
+        </div>       
     )
 }
 
