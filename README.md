@@ -1,5 +1,5 @@
 # Portfolio Website
-A portfolio website I built to showcase my work. It contains a homepage with "about me" section, portfolio page, interests, and certificates pages, as well as links to github and linkedIn. Feel free to use the code for your own portfolio site.
+A portfolio website I built to showcase my work. It contains a homepage with "about me" section, a portfolio page and an interests page as well as links to github and linkedIn. Feel free to use the code for your own portfolio site.
 
 <img src="/src/img/readMe.png" height="400"/>
 
