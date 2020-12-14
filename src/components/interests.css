@@ -91,7 +91,7 @@
         width: 135px;
     }
     .p-interests { margin: 1rem 3rem;}
-    .interest-page .title { margin: 1rem 0 0 0;}
+    /* .interest-page .title { margin: 1rem 0 0 0;} */
 }
 
 @media only screen and (min-width: 584px) {
@@ -113,7 +113,7 @@
         text-align: justify;
         margin-top: 1rem;
     }
-    .interest-page .title { margin: 1rem;}
+    /* .interest-page .title { margin: 1rem;} */
 }
 
 

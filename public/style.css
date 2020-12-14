@@ -30,3 +30,10 @@ html {
 a {
     text-decoration: none;
 }
+
+@media only screen and (min-width: 737px) {
+    .title-row {
+        margin: 10rem 2rem 2rem 2rem;
+    }
+
+}
