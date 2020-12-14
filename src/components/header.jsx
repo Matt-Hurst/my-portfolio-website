@@ -72,7 +72,7 @@ const Header = ()=> {
                         {<img src={LinkedIn} className="logo" alt="LinkedIn logo"></img>}
                         </a>
                         <a href="https://github.com/Matt-Hurst" target="blank">
-                        {<img src={Github} className="logo" alt="Github logo"></img>}
+                        {<img src={Github} className="logo" id="github-logo" alt="Github logo"></img>}
                         </a>
                     </ul>
                 </nav>

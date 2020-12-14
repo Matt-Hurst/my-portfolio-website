@@ -7,7 +7,7 @@ const Home = () => {
         <div>
             <div className="home">
                 <h1>Welcome</h1>
-                <h2>Please explore my portfolio, interests, and certificates</h2>
+                <h2>Please explore my portfolio and interests</h2>
             </div>
 
             <div className="home-text">
