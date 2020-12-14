@@ -1,6 +1,32 @@
 
 const work = [
-    
+    {
+        id: 8,
+        name: "Chit Chat Exchange",
+        img: require("./img/chitChatRoom.PNG"),
+        alt: "image of chit chat exchange website",
+        website: "https://github.com/mhyusuf/chit-chat",
+        tech: "React, TypeScript, Sass, Socket.io, JWT, Express, PostgresSQL, Sequelize, hosted on AWS RDS",
+        desc: "Chit chat is a platform for classrooms studying each other's language to connect in real-time for language and cultural exchange, all with the safety of supervision by their teachers. Teachers are able to assign tasks to students and review their uploaded submissions."
+    },
+    {
+        id: 7,
+        name: "Book Circle",
+        img: require("./img/bookCircle.png"),
+        alt: "images of book circle",
+        website: "https://github.com/Matt-Hurst/bookCircle",
+        tech: "TypeScript, React, Sass, Express, Mongoose",
+        desc: "Book Circle allows you to store your bookshelf virtually, keeping track of every book you've read, your thoughts on the book and whether you have a physical copy to hand to lend to friends. Set a target for books to read in a year and keep track with the apps handy totalizer. Add your friends and snoop through their bookshelves and don't forget to request to borrow any books that leap out at you."
+    },
+    {
+        id: 6,
+        name: "BookMooch Go",
+        img: require("./img/bookMoochGo.PNG"),
+        alt: "images of BookMooch Go",
+        website: "https://github.com/bmcglauser/bookmooch-go",
+        tech: "TypeScript, React, Sass, Jest, Express, GraphQL",
+        desc: 'BookMooch Go is the first mobile-optimized portal for the preexisting desktop platform BookMooch.com, a global book-swap site with over 300,000 registered members. At BookMooch Go I was tasked with making the codebase more robust. I pair programmed to convert the existing codebase to TypeScript, along with creating tests for the apps key functionality (using Jest).'
+    },
     {
         id: 5,
         name: "WellBoring",
