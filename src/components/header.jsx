@@ -32,9 +32,6 @@ const Header = ()=> {
                         <Link to="/interests">
                             <li onClick={handleLinkClick}>Interests</li>
                         </Link>
-                        <Link to="/certificates">
-                            <li onClick={handleLinkClick}>Certificates</li>
-                        </Link>
                         <div className="logo-links">
                             <a href="https://www.linkedin.com/in/matthew-a-hurst/" target="blank">
                             {<img src={LinkedIn} className="drop-logo" alt="LinkedIn logo"></img>}
@@ -70,9 +67,6 @@ const Header = ()=> {
                         </Link>
                         <Link to="/interests">
                             <li>Interests</li>
-                        </Link>
-                        <Link to="/certificates">
-                            <li onClick={handleLinkClick}>Certificates</li>
                         </Link>
                         <a href="https://www.linkedin.com/in/matthew-a-hurst/" target="blank">
                         {<img src={LinkedIn} className="logo" alt="LinkedIn logo"></img>}

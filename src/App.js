@@ -3,7 +3,6 @@ import Header from "./components/header"
 import Home from "./components/home"
 import Portfolio from "./components/portfolio"
 import Interests from "./components/interests"
-import Certificates from "./components/certificates"
 import Error from "./components/error"
 import {
   BrowserRouter as Router,
@@ -21,7 +20,6 @@ function App() {
           <Route path="/" component={Home} exact/>
           <Route path="/portfolio" component={Portfolio} />
           <Route path="/interests" component={Interests} />
-          <Route path="/certificates" component={Certificates} />
           <Route component={Error} />
         </Switch>
       </main>
